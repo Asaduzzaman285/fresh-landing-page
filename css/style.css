@@ -1,0 +1,86 @@
+.hero-section,.footer-section{
+    background-color: rgba(250, 227, 182, 1);
+}
+.footer-section{
+    margin-top: 200px;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.nav-button{
+    width: 121px;
+height: 57px;  
+background-color: rgba(253, 187, 87, 1);
+border-radius: 10px;
+border: 1px solid yellow;
+
+}
+.imagebox {
+    overflow: hidden;
+}
+.imagebox img {
+    object-fit: cover;
+    width: 100%;
+ 
+}
+.textbox {
+height: 57.13px;
+top: 75%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.textbox button {
+ height: 100%;
+ width: 100%;
+
+}
+.imagepoint{
+    top: -160px;
+    left: -100px;
+ 
+    z-index: -1;
+}
+.box{
+
+
+    width:100%;
+height: 280px; 
+ background-color: rgba(254, 236, 200, 1);
+ left: -85px;
+  z-index: -1;
+}
+.box-start::after {
+    content: "";
+    position: absolute;
+    height: 143px; 
+    left: 33.33%;
+    border-left: 1px solid rgba(0, 0, 0, 1);
+    transform: translateX(-50%);
+}
+.box-mid::after {
+    content: "";
+    position: absolute;
+    height: 143px; 
+    left: 67%;
+    border-left: 1px solid rgba(0, 0, 0, 1);
+    transform: translateX(-50%);
+}
+.footerimagebox {
+    margin: 0 auto;
+}
+.iconbox i {
+    color: rgba(255, 175, 55, 1);
+}
+@media (max-width: 992px) and (min-width: 768px) { 
+    .box{
+         width: 150%;
+         left: -80%;
+
+    }
+}
+@media (max-width: 768px) { 
+    .box{
+          left: 1%;
+    }
+}
